@@ -1,0 +1,188 @@
+
+body{
+  background-color: white;
+}
+
+ .logo{
+   height: 100px;
+ }
+.nav1 a {
+  text-decoration: none;
+}
+.nav1 {
+  background-color: grey;
+}
+.content{
+  height:400px;
+  background-color: rgb(204, 228, 161);
+}
+
+.carousel-image{
+height: 500px;
+}
+
+.carousel-container{
+    margin-top:200px;
+    font-family: 'Irish Grover', cursive;
+}
+.carousel-container a{
+  text-decoration: none;
+}
+
+/* .carousel-part{
+  margin-top:100px;
+} */
+
+.footer{
+  height:auto;
+  background-color: grey;
+  margin:100px 0px 0px 0px;
+}
+
+.footer-row{
+  padding-top:30px;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.search{
+  margin-top:120px;
+}
+
+.browsenow a{
+  /* border:2px solid black; */
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+ font-weight: 100px;
+ background-color:rgb(77, 51, 221);
+ 
+}
+
+
+.login-container{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border:2px solid red; */
+}
+.login-box{
+  background-color: rgb(243, 237, 237);
+  box-shadow: rgb(109, 3, 12);
+  padding: 10px;
+  width: 40em;
+  
+} 
+
+.btn0{
+  width: 100%;
+  margin: 0px;
+  border-radius:100px ;
+  
+}
+
+.btn button{
+  width: 50%;
+  margin: 0px;
+  position: relative;
+  border: none;
+  
+
+}
+
+.btn1{
+  background-color: rgb(165, 135, 194);
+}
+.btn2{
+  background-color: rgb(221, 138, 166);
+}
+#register{
+  display: none;}
+
+  .form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .form-content input{
+    width: 60%;
+  }
+
+  .form-content button{
+width: 15em;
+  }
+
+  .facebook-color{
+    background-color: #3B5998;
+  }
+
+  .col123{
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 10px;
+    
+  }
+
+  .flexitem{
+    padding: 20px;
+    margin: 20px 20px 30px 10px;
+    width: 350px;
+    background-color: rgb(250, 249, 245);
+    
+  }
+
+  .item-title{
+    position:relative;
+    /* width: 80%; */
+    font-family: cursive;
+    text-align: center;
+    padding:20px;
+  
+  }
+
+  .item-image{
+    padding: 20px;
+  }
+
+  .flex-child1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchbar{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin:20px;
+  }
+   /* .searchbar input{
+     width: 100px;
+   } */
+
+  .searchbar h3{
+    margin-right:20px;
+  }
+
+ 
+
+  @media screen and (max-width: 768px){
+.carousel-part{
+  display:none
+}
+  }
+    
+  
