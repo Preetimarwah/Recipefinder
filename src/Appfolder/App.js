@@ -1,11 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import "./index.css";
 import Navbar from "./Navbar.js";
 import Body from "./Body.js";
 import Search from './Search';
-import Aboutus from './Aboutus';
-import Footer from './Footer';
 import Login from './Login';
 function App() {
   return (
@@ -25,7 +23,6 @@ function App() {
           <Login/>
         </Route>
        </Switch>
-       {/* <Footer/> */}
     </Router>
   );
 }
