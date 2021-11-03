@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
           <li class="nav-item">
             <button class="nav-link" style={{border:"none", backgroundColor:"white"}}
-            ><Link to ='Login/'>Login/Signup</Link></button>
+            ><Link to ='/Login'>Login/Signup</Link></button>
           </li>  
         
         </ul>
