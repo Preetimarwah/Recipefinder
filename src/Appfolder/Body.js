@@ -11,19 +11,19 @@ const Body = () => {
            <h2> In this website you will find great dishes you can make with your favourite ingredients.
          so click on the button below and type in your favourite ingredient in searchbar.                
          <br/><br/>
-               <button class= "browsenow"><Link to ='/Search'>Browse Now</Link></button> </h2>
+               <button class= "browsenow"><Link to ='/Search'>Browse Now</Link></button> </h2> 
         </div>
     <div class="col-lg-8 col-12 container carousel-part mt-md-5 mt-lg-0">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="/images/image4.jpg" class="d-block w-100 carousel-image"/>
+                            <img src="/images/image4.jpg" class="d-block w-100 carousel-image" alt="error" />
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="/images/image5.jpg" class="d-block w-100 carousel-image"/>
+                            <img src="/images/image5.jpg" class="d-block w-100 carousel-image"alt="error" />
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="/images/image6.jpg" class="d-block w-100 carousel-image"/>
+                            <img src="/images/image6.jpg" class="d-block w-100 carousel-image" alt="error" />
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
