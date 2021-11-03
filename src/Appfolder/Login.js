@@ -50,9 +50,9 @@ y.style.display="none";
   <form>
 <div id ="alreadyregister">
   <div class="form-content">
-<input type="email" placeholder="E-mail" name="E-mail" required></input><br/><br/>
-<input type="password" placeholder="Password" name="password" required></input><br/><br/>
-<button class= "btn-primary">Submit</button><br/>
+<input type="email" placeholder="E-mail" name="E-mail" required></input>
+<input type="password" placeholder="Password" name="password" required></input>
+<button class= "btn-primary">Submit</button>
 
 </div>
   </div>
@@ -63,24 +63,24 @@ y.style.display="none";
   <div id="register">
   <div class="form-content">
 
-<input type="text" placeholder="Type your name here" name="bname" required ></input><br/><br/>
+<input type="text" placeholder="Type your name here" name="bname" required ></input>
 
-<input type="email"placeholder="Type your E-mail here" name="E-mail" required></input><br/><br/>
+<input type="email"placeholder="Type your E-mail here" name="E-mail" required></input>
 
 <input type="password" placeholder="Type your password here"
 onChange={(e)=>{setPasswordValue(e.target.value)
-console.log(passwordValue)}} name="password" required></input><br/>
-{error && <span>Please type a strong password</span>}       <br/>
+console.log(passwordValue)}} name="password" required></input>
+{error && <span>Please type a strong password</span>}       
 
 <input type="password" placeholder="Confirm your password here" name="number"
 onChange={(e)=>{setConfirmPasswordValue(e.target.value)
   console.log(passwordValue)}}
-required/><br/>
-{error2 && <span>This value should be equal to your password</span>}   <br/>
+required/>
+{error2 && <span>This value should be equal to your password</span>}
 
-<input type="number" placeholder="Type your Phone number here" name="number" required/><br/><br/>
+<input type="number" placeholder="Type your Phone number here" name="number" required/>
 
-<button type="submit" onClick={checkPassword} class="btn-primary">Submit</button><br/>
+<button type="submit" onClick={checkPassword} class="btn-primary">Submit</button>
 
 </div>
   </div> </form>
