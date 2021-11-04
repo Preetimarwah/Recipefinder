@@ -13,7 +13,7 @@ const Body = () => {
          <br/><br/>
                <button class= "browsenow"><Link to ='/Search'>Browse Now</Link></button> </h2> 
         </div>
-    <div class="col-lg-8 col-12 container carousel-part mt-md-5 mt-lg-0">
+    <div class="col-lg-7 offset-lg-1 col-12 container carousel-part mt-md-5 mt-lg-0 mr-lg-0">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">

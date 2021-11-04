@@ -26,12 +26,12 @@ height: 500px;
     font-family: 'Irish Grover', cursive;
 }
 .carousel-container a{
-  text-decoration: none;
-}
-
-/* .carousel-part{
-  margin-top:100px;
-} */
+  text-decoration: none;}
+/* 
+ .carousel-part{
+  padding-left: 180px;
+  padding-bottom:200px;
+}   */
 
 .footer{
   height:auto;
